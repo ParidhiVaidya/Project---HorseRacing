@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title> The Horse Racing Game
+    </title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+    <script src="./lib/sweetalert.min.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    
+    <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+
+
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.6.5/firebase-database.js"></script>
+
+    <script>
+
+    //<!-- Firebase SDK CODE ADD BELOW -->
+    const firebaseConfig = {
+  apiKey: "AIzaSyCd4hJR5ukhNn75xmBWoMoi43a4_VzbI-0",
+  authDomain: "the-horse-racing-game.firebaseapp.com",
+  databaseURL: "https://the-horse-racing-game-default-rtdb.firebaseio.com",
+  projectId: "the-horse-racing-game",
+  storageBucket: "the-horse-racing-game.appspot.com",
+  messagingSenderId: "802731041144",
+  appId: "1:802731041144:web:422006964db29ab78ea88d"
+};
+
+firebase.initializeApp(firebaseConfig);
+    </script>
+
+
+  </head>
+  <body>
+    
+    <script src="./sketch.js"></script>
+  </body>
+</html>
